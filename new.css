@@ -1,0 +1,409 @@
+.video {
+    position: relative;
+}
+.back-video {
+    width: 100%;
+    height: auto;
+}
+.video .videoplaybutton{
+    background: rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    bottom: 0;
+    font-size: 30px;
+    right: 0;
+    color: #FFF;
+    z-index: 3;
+    margin:auto;
+    text-align: center;
+    cursor: pointer;
+    width:55px;
+    height: 45px;
+    opacity: 0;
+
+}
+
+.videoplaybutton .play{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+.videoplaybutton:hover{
+    opacity: 0.5;
+}.sliderbutton{
+ position: relative;
+  top: 376px;
+   margin-top: -30px;
+   left: 20px;
+    width: 60px;
+    height: 60px;
+    opacity: 0;
+}
+.sliderbutton button{
+    background: transparent;
+  border: none ;
+  
+}  
+.sliderbutton:hover{
+    opacity:1;
+    cursor: pointer;
+}
+.sliderbutton {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 300px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.right{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    position: absolute;
+    padding: 0%;
+    left: 1439px;
+}
+
+ 
+
+.player-tp-container{
+    width: 458.030px;
+    height: 38.500px;
+    padding: 5px;
+    background-color:rgba(35, 35, 35, 0.893);
+    position:absolute;
+    left:0;
+    right: 0;
+    bottom: 0;
+    padding: 5px;
+   align-self:flex-end;
+   opacity:0;
+   
+}
+.player-tp-innercontainer button{
+    background-color:rgba(0, 0, 0, 0.3);
+    color: azure;
+   
+    text-align: center;
+   margin-left:5px ;
+    padding: 2px;
+    font-size: 12px;
+    
+
+}
+ .player-tp-container:hover{
+    opacity: 1;
+    
+}
+.player-tp-innercontainer button:hover{
+
+    border: 1px solid azure;
+    border-radius: 5px;
+} 
+
+.videoplaybutton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.videoplaybutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-tp-container {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 40%;
+}
+.player-tp-container button,
+.player-tp-container input {
+    margin: 0.5rem;
+}
+
+.nav-bar{
+    text-decoration: none;
+    color: #181818;
+    font-weight: 700;
+}
+
+
+.nav-items a::before{
+    
+    display: inline-block;
+    position: sticky;
+    content: " ";
+    width: 10px;
+    pointer-events: none;
+    height: 2px;
+    background-color: #e94d65;
+    top: 0;
+    left:0;
+    opacity: 0;
+    margin: 5px 10px 5px 5px;
+
+}
+.activehome {
+    font-weight: bold;
+    color: #b73235;
+}
+.activehome a::before {
+    font-weight: bold;
+    color: #b73235;
+    opacity: 1;
+}
+ 
+.nav-bar:hover{
+    color:#b73235;
+}
+.nav-bar:hover::before{
+    opacity: 1;
+}
+
+.shopimgcontainer {
+    display: flex;
+    justify-content: center;
+}
+.heading-shope h3 span{
+    color:#a31c1e;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.heading-shope h3{
+    color: #1B4962;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.shopspacecontainer {
+    height: 100px; 
+}
+
+.selecters {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.selecters i{
+ position: absolute;
+
+right: 25px;
+}
+
+.selecterhed {
+    margin-right: 10px;
+    font-size: 1.rem;
+    font-weight: 700;
+    color: #9a1818;
+}
+
+
+
+.paragraph-container {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #9ea3a9; 
+}
+
+.spacesection {
+    background-color: #f8f9fa; 
+}
+
+.facts-outercontainer {
+    background-color: #ffffff; 
+}
+
+.fact-heding h6 {
+    font-size: 1.25rem;
+    color:#1B4962;
+}
+
+.fact-heading h1 {
+    font-size: 2.5rem;
+     
+}
+
+.fact-text {
+    font-size: 1rem; 
+}
+
+.fact-imag img {
+    width: 50px; 
+    height: 50px; 
+}
+
+.ourmenu-outer-container {
+    background-color: #f8f9fa; 
+}
+
+.ourmenu-head-discription h1 {
+    font-size: 3.5rem; 
+    color: #1B4962;
+    font-weight: 800;
+}
+.ourmenu-head-discription h1 strong{
+    color: #b73235;
+}
+.ourmenu-head-discription p{
+    font-size: 1rem;
+    font-weight: 600;
+      color: #6d6565;;
+}
+
+
+
+.menuquote-heading h2 {
+    font-size: 2rem;
+    color: #6c757d;
+}
+
+.menuquote-heading p {
+    font-size: 1rem; 
+}
+#loction{
+    padding-top: 100px;
+    height: 520.200px;
+    background-image: url(./image/fact-bg.jpg);
+}
+#loction .find-head {
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#loction .loction-head-discription h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+#loction .loction-head-discription h1 strong{
+    color: #b90416;
+}
+
+#loction .loction-head-discription p {
+    font-size: 1.125rem;
+    color: #666;
+  
+}
+
+#loction a {
+   
+   text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.contactheading h6{
+    color: #1B4962;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.contactheading h1{
+    color: #1B4962;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+
+.contactheading h1 strong{
+    color: #b73235;
+}
+
+.contactheading p{
+    font-weight: 500;
+}
+#contact .form-label {
+    font-weight: 800;
+}
+
+#contact .form-control {
+    border-radius: .375rem;
+}
+
+#contact .btn-success {
+  width: 150px;
+  height: 50px;
+}
+
+#contact .btn-success:hover {
+    background-color: #181818;
+    border-color: white;
+}
+.media h2{
+    color: #a31c1e;
+    font-weight: 700;
+    font-size: 2.8rem;
+
+}
+.media .btn-outline-secondary {
+    color:#b73235;
+    border:3px solid #b90416;
+}
+
+.media .btn-outline-secondary:hover {
+    color: rgb(63, 63, 238);
+    border-color: blue;
+    background-color: #fff;
+   
+}
+
+footer {
+    background-color:#1B4962;
+    color: #fff;
+}
+
+footer .text-center p {
+    margin-bottom: 0;
+}
+
+.fact-heading h6 {
+    color: #1B4962;
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-size: 18px
+}
+.fact-main-heading h1{
+    font-size: 58px;
+    font-weight: 900;
+    color: #1B4962;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.fact-main-heading h1 strong{
+    color: #b73235;
+}
+.fact-imag img {
+    width: 100px;
+    height: auto;
+}
+.fact-heding{
+    text-align: left;
+}
+.fact-text {
+    font-size: 17px;
+    text-align: left;
+    font-weight: 500;
+    color: #6c757d;
+}
+.fact-space {
+    height: 30px;
+}
+.badge-logo img {
+    width: 100px;
+    height: auto;
+}
